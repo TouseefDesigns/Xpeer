@@ -3,15 +3,19 @@
 /* =============
 Default CSS
 ==============*/
-*body{
+/* *body{
     box-sizing: border-box;
+} */
+*{
+    margin: 0%;
+    padding: 0%;
 }
 body{
     font-family: 'Roboto', sans-serif;
 }
 section{
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 span{
     color: #ec4a71;
@@ -87,8 +91,12 @@ font-size: 12px;
 }
 .navbar-light .navbar-toggler{
 color: white;
-border-color: none;
+border: none;
 }
+.sticky .navbar-toggler{
+    color: black;
+    border: none;
+    }
 .about-content h4 {
     margin: 0;
     font-weight: 700;
@@ -123,11 +131,10 @@ border-color: none;
     background-color: rgba(236, 74, 113, 0.1);
     /* padding: 50px 120px; */
 }
-
 .service-item {
     box-shadow: 0 0 4px 0 #ccc;
     border-radius: 4px;
-    padding: 40px 20px 30px;
+    padding: 55px 20px 40px;
     margin-bottom: 30px;
     background-color: #fff;
     transition: 0.3s;
@@ -153,14 +160,10 @@ transform: scale(1.1);
     margin-bottom: 60px;
     background-color: #fff;
 }
-/* .portfolio-menu button.active, .portfolio-menu button:hover {
-    
-} */
 .filter-button.active,.filter-button:hover
 {
     background-color: #ec4a71;
     color: #fff;
-
 }
 .btn-default:active .filter-button:active
 {
@@ -168,23 +171,57 @@ transform: scale(1.1);
     color: white;
 }
 .mb-30{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 30px;
 }
-/* .portfolio-overlay {
+.white{
+    color: white;
+}
+.portfolio-overlay {
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(236, 74, 113, 0.8);
+    opacity: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(236, 74, 113, 0.8);
-    padding: 62px 0 0;
-    opacity: 2;
-    visibility: hidden;
+    transition: 0.5s;
 }
-.portfolio-overlay a:hover {
-    color: #fff;
+.portfolio-overlay:hover {
+    opacity: 1;
+}
+.center-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.size{
     font-size: 30px;
-    margin: 0 0 20px;
+    margin-bottom: 30px;
+}
+
+.team-single-item {
+    -webkit-box-shadow: 0 0 6px 0px #ccc;
+    box-shadow: 0 0 6px 0px #ccc;
+    padding: 0 0 30px;
+    border-radius: 4px;
+}
+.team-single-item img {
+    border-radius: 4px 4px 0 0;
+}
+.team-social a {
+    border: 1px solid #ec4a71;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ec4a71;
+    margin: 0 4px;
     display: inline-block;
-} */
+}
+.team-social a:hover{
+    background-color: #ec4a71;
+    color: white;
+}
