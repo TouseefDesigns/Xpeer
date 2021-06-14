@@ -34,10 +34,27 @@ $(document).ready(function () {
 
   });
 });
+$(document).ready(function (){
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+});
+});
 
 
-
-
+//JavaScript
+  
+  // jQuery counterUp
+  // $('[data-toggle="counter-up"]').counterUp({
+  //   delay: 10,
+  //   time: 1000
+  // });
+  // $(document).ready(function (){
+  //   $('[data-toggle="counter-up"]').counterUp({
+  //     delay: 10,
+  //     time: 1000
+  //   });
+  //   });
 // $(document).ready(function () {
 //   $(".filter-button").click(function (e) {
 //     $(".filter-button").removeClass('active');
