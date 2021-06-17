@@ -236,16 +236,12 @@ transform: scale(1.1);
     color: white;
 }
 #stat{
- /* The image used */
  background-image: url("/assets/images/slide-1.jpg");
- /* Full height */
  height: 50%; 
- /* Center and scale the image nicely */
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- /* background-color: rgba(236, 74, 113, 0.8);
- z-index: 0; */
+
  color: white;
 }
 .stat-overlay{
@@ -370,15 +366,6 @@ margin: 0;
     padding: 10px 30px;    
     font-weight: 500;
 }
-#map{
-    width: 100%;
-    height: 400px;
-    margin: 0%;
-    padding: 0%;
-}
-.map{
-    filter: brightness(50%);
-}
 #footer{
     background-color: #1A1E21;
     padding-bottom: 0%;
@@ -392,11 +379,68 @@ margin: 0;
 }
 #testimonial{
     background-image: url("/assets/images/slide-3.jpg");
-    position: relative;
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
     background-attachment: fixed;
     padding: 80px 0;
+    color: white;
+}
+.testi-overlay::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.testi-img{
+width: 100px !important;
+margin: 0 auto;
+}    
+.testi-box{
+    padding: 60px 40px 80px;
+    background-color: #ec4a71;
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 auto;
+}
+.testi-box p{
+    font-size: 14px;
+}
+/* #customer-testimonial{
+    padding: 60px 40px 80px;
+    background-color: #ec4a71;
+    border-radius: 4px;
+}
+.testimonial-overlay{
     filter: brightness(30%);
 }
+.owl-carousel img{
+max-width: 100px;
+padding: 5px;
+border-radius: 100%;
+margin: 0 auto;
+
+}
+.testimonial .client-info p {
+    color: #fff;
+}
+.testimonial .client-comment p {
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.testimonial .client-comment p::before {
+    content: "\201C";
+    font-size: 30px;
+    margin-left: -15px;
+    padding-right: 8px;
+}
+.testimonial .client-comment p::after {
+    content: "\201D";
+    font-size: 30px;
+    padding-left: 6px;
+} */

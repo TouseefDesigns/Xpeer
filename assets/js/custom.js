@@ -41,6 +41,49 @@ $('.counter').counterUp({
 });
 });
 
+$(document).ready(function (){
+  $('#testimonial-carousel').owlCarousel({
+    loop: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 1
+        },
+        991: {
+            items: 1
+        },
+        1200: {
+            items: 1
+        },
+        1920: {
+            items: 1
+        }
+    }
+});
+  });
+
+
+
+//   $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:5
+//         }
+//     }
+// })
+
+
 
 //JavaScript
   
