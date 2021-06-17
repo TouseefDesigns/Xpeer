@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+   .main-banner-text{
+       height: 50%;
+       width: 90%;
+       left: 5%;
+   }
+   .main-banner-text h3{
+    font-size: 12px;
+}
+.main-banner-text h1{
+    font-size: 18px;
+}
+.main-banner-text p{
+    font-size: 10px;
+}
+.main-banner-text .btn{
+    font-size: 10px;
+    margin-top: 0;
+    padding: 5px;}
+}
+
+@media only screen and (max-width: 425px) {
+    .main-banner-text{
+        height: 25%;
+        width: 90%;
+        left: 5%;
+    }
+    .main-banner-text h3{
+     font-size: 8px;
+ }
+ .main-banner-text h1{
+     font-size: 14px;
+ }
+ .main-banner-text p{
+     font-size: 6px; line-height: 1px;
+ }
+ .main-banner-text .btn{
+     font-size: 6px;
+     margin-top: 0;
+     padding: 5px;}
+ }
+ @media only screen and (max-width: 425px) {
+    .main-banner-text{
+    display: none;
+   }
+ }
+ 
+
