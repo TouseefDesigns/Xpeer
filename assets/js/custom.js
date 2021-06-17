@@ -41,6 +41,23 @@ $('.counter').counterUp({
 });
 });
 
+
+$(document).ready(function (){
+  $('#main-banner-carousel').owlCarousel({
+    loop: true,
+    dots: false,
+    autoplay:true,
+    smartSpeed: 1500,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive: {
+        0: {
+            items: 1
+        }
+    }
+});
+  });
+
 $(document).ready(function (){
   $('#testimonial-carousel').owlCarousel({
     loop: true,

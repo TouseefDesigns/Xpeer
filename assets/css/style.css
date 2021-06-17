@@ -14,7 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 section{
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 span{
@@ -88,26 +88,37 @@ p {
 .banner-img{
     filter: brightness(30%);
 }
-.carousel-caption .btn{
+.main-banner-text {
+    position: absolute;
+    /* right: 15%; */
+    top: 60%;
+    width: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    /* z-index: 10; */
+    color: #fff;
+    /* text-align: center; */
+}
+.main-banner-text .btn{
     background-color: #ec4a71;
     font-size: 14px;
     margin-top: 20px;
     padding: 10px 30px;
     font-weight: 500;
+    left: 0%;
 }
-.carousel-caption{
+/* .carousel-caption{
     text-align: left;
-    /* top: 50px; */
     bottom: 30vh;
-}
-.navbar-light .navbar-toggler{
+} */
+/* .navbar-light .navbar-toggler{
 color: white;
 border: none;
-}
-.sticky .navbar-toggler{
+} */
+/* .sticky .navbar-toggler{
     color: black;
     border: none;
-    }
+    } */
 .about-content h4 {
     margin: 0;
     font-weight: 700;
@@ -152,7 +163,7 @@ border: none;
     
 }
 .service-item:hover{
-transform: scale(1.1);
+transform: scale(1.05);
 }
 .service-item i {
     color: #ec4a71;
@@ -409,38 +420,6 @@ margin: 0 auto;
 .testi-box p{
     font-size: 14px;
 }
-/* #customer-testimonial{
-    padding: 60px 40px 80px;
-    background-color: #ec4a71;
-    border-radius: 4px;
+.testi-qoute{
+    font-size: 20px;
 }
-.testimonial-overlay{
-    filter: brightness(30%);
-}
-.owl-carousel img{
-max-width: 100px;
-padding: 5px;
-border-radius: 100%;
-margin: 0 auto;
-
-}
-.testimonial .client-info p {
-    color: #fff;
-}
-.testimonial .client-comment p {
-    font-style: italic;
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-.testimonial .client-comment p::before {
-    content: "\201C";
-    font-size: 30px;
-    margin-left: -15px;
-    padding-right: 8px;
-}
-.testimonial .client-comment p::after {
-    content: "\201D";
-    font-size: 30px;
-    padding-left: 6px;
-} */
