@@ -246,7 +246,7 @@ transform: scale(1.05);
     color: white;
 }
 #stat{
- background-image: url("assets/images/slide-1.jpg");
+ background-image: url(../images/slide-1.jpg)
  height: 50%; 
  background-position: center;
  background-repeat: no-repeat;
