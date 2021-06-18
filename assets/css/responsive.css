@@ -1,10 +1,27 @@
-@media only screen and (min-width: 424px) and (max-width: 768px) {
-   .main-banner-text{
-       height: 50%;
-       width: 90%;
-       left: 5%;
-   }
-   .main-banner-text h3{
+/* ==========================
+====== Laptop Display =======
+=============================*/
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+h4{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+}
+/* ==========================
+====== Tablet Display =======
+=============================*/
+@media only screen and (min-width: 424px) and (max-width: 767px) {
+.main-banner-text{
+    height: 50%;
+    width: 90%;
+    left: 5%;
+}
+.main-banner-text h3{
     font-size: 12px;
 }
 .main-banner-text h1{
@@ -16,7 +33,7 @@
 .main-banner-text .btn{
     font-size: 10px;
     margin-top: 0;
-    padding: 5px;}
+    padding: 5px;
 }
 h4{
     font-size: 16px;
@@ -31,33 +48,37 @@ p{
     font-size: 12px;
     margin-top: -25PX;
 }
+}
+/* ==========================
+====== Mobile Display =======
+=============================*/
 @media only screen and (max-width: 425px) {
-    .owl-carousel .owl-item img{
-        width: 125%;
-    }
-    .main-banner-text{
-        height: 75%;
-        width: 90%;
-        left: 5%;
-        top: 120px;
-    }
-    .main-banner-text h3{
-     font-size: 8px;
-     margin-top: 14px;
+.owl-carousel .owl-item img{
+    width: 125%;
+}
+.main-banner-text{
+    height: 75%;
+    width: 90%;
+    left: 5%;
+    top: 120px;
+}
+.main-banner-text h3{
+    font-size: 8px;
+    margin-top: 14px;
+}
+.main-banner-text h1{
+    font-size: 10px;
+    line-height: 0px;
+}
+.main-banner-text p{
+    font-size: 8px; 
+    line-height: 12px;
  }
- .main-banner-text h1{
-     font-size: 10px;
-     line-height: 0px;
- }
- .main-banner-text p{
-     font-size: 8px; 
-     line-height: 12px;
- }
- .main-banner-text .btn{
+.main-banner-text .btn{
     font-size: 5px;
     margin-top: -20px;
     padding: 3px;
-    }
+}
 h5{
     font-size: 15px;
 } 
@@ -103,15 +124,8 @@ p{
     font-size: 12px;
 }
 .testi-box{
-/* padding: 50px 10px 30px; */
-width: 100%;
-padding: 50px 10px 30px;
+    width: 100%;
+    padding: 50px 10px 30px;
 }
 }
- /* @media only screen and (max-width: 425px) {
-    .main-banner-text{
-    display: none;
-   }
- }
-  */
 

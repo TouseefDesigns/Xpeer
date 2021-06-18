@@ -1,7 +1,9 @@
 !(function($){
   "use strict";
 
-// Sticky Navbar
+/*===========================
+====== Sticky Navbar =======
+=============================*/
 window.onscroll = function () { myFunction() };
 var navbar = document.getElementById("mynavbar");
 function myFunction() {
@@ -11,17 +13,32 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+/*===========================
+==== Main Banner Carousel ===
+=============================*/
+$('#main-banner-carousel').owlCarousel({
+  loop: true,
+  dots: false,
+  autoplay:true,
+  smartSpeed: 1500,
+  autoplayTimeout:3000,
+  autoplayHoverPause:true,
+  responsive: {
+      0: {
+          items: 1
+      }
+  }
+});
+/*===========================
+====== Porfolio Filter ======
+=============================*/
 $(document).ready(function () {
-
   $(".filter-button").click(function () {
     var value = $(this).attr('data-filter');
     if (value == "all") {
-      //$('.filter').removeClass('hidden');
       $('.filter').show('1000');
     }
     else {
-      //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-      //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
       $(".filter").not('.' + value).hide('3000');
       $('.filter').filter('.' + value).show('3000');
     }
@@ -31,32 +48,26 @@ $(document).ready(function () {
     if (!$this.hasClass('active')) {
       $this.addClass('active');
     }
-
   });
 });
-
+/*===========================
+======= Stat Counter ========
+=============================*/
 $('.counter').counterUp({
   delay: 10,
   time: 1000
 });
-$('#main-banner-carousel').owlCarousel({
-    loop: true,
-    dots: false,
-    autoplay:true,
-    smartSpeed: 1500,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    responsive: {
-        0: {
-            items: 1
-        }
-    }
-});
+/*===========================
+======== PopUp Video ========
+=============================*/
 $(document).ready(function() {
   $('.venobox').venobox({
     'share': false
   });
   });
+/*===========================
+=== Testimonial Carousel ====
+=============================*/
 $(document).ready(function (){
   $('#testimonial-carousel').owlCarousel({
     loop: true,
@@ -80,75 +91,3 @@ $(document).ready(function (){
 });
   });
 })(jQuery);
-
-
-//   $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
-
-
-
-//JavaScript
-  
-  // jQuery counterUp
-  // $('[data-toggle="counter-up"]').counterUp({
-  //   delay: 10,
-  //   time: 1000
-  // });
-  // $(document).ready(function (){
-  //   $('[data-toggle="counter-up"]').counterUp({
-  //     delay: 10,
-  //     time: 1000
-  //   });
-  //   });
-// $(document).ready(function () {
-//   $(".filter-button").click(function (e) {
-//     $(".filter-button").removeClass('active');
-//     var $this = $(this);
-//     if (!$this.hasClass('active')) {
-//       $this.addClass('active');
-//     }
-//     //e.preventDefault();
-//   });
-// });
-
-
-// $(document).ready(function(){
-
-//   $(".filter-button").click(function(){
-//       var value = $(this).attr('data-filter');
-
-//       if(value == "all")
-//       {
-//           $('.filter').removeClass('hidden');
-//           $('.filter').show('1000');
-//       }
-//       else
-//       {
-//   //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//   //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-//           $(".filter").not('.'+value).hide('3000');
-//           $('.filter').filter('.'+value).show('3000');
-
-//       }
-//   });
-
-//   if ($(".filter-button").removeClass("active")) {
-//   $(this).removeClass("active");
-//   }
-//   $(this).addClass("active");
-
-//   });
