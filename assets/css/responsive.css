@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 424px) and (max-width: 768px) {
    .main-banner-text{
        height: 50%;
        width: 90%;
@@ -21,28 +21,34 @@
 
 @media only screen and (max-width: 425px) {
     .main-banner-text{
-        height: 25%;
+        height: 75%;
         width: 90%;
         left: 5%;
+        top: 120px;
     }
     .main-banner-text h3{
      font-size: 8px;
+     margin-top: 10px;
  }
  .main-banner-text h1{
-     font-size: 14px;
+     font-size: 10px;
+     line-height: 0px;
  }
  .main-banner-text p{
-     font-size: 6px; line-height: 1px;
+     font-size: 8px; 
+     line-height: 12px;
  }
  .main-banner-text .btn{
-     font-size: 6px;
-     margin-top: 0;
-     padding: 5px;}
+    font-size: 5px;
+    margin-top: -20px;
+    padding: 3px;
+    }
  }
- @media only screen and (max-width: 425px) {
+
+ /* @media only screen and (max-width: 425px) {
     .main-banner-text{
     display: none;
    }
  }
- 
+  */
 
