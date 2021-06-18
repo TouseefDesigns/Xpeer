@@ -1,5 +1,7 @@
-// Sticky Navbar
+!(function($){
+  "use strict";
 
+// Sticky Navbar
 window.onscroll = function () { myFunction() };
 var navbar = document.getElementById("mynavbar");
 function myFunction() {
@@ -9,8 +11,6 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
-
 $(document).ready(function () {
 
   $(".filter-button").click(function () {
@@ -34,16 +34,12 @@ $(document).ready(function () {
 
   });
 });
-$(document).ready(function (){
+
 $('.counter').counterUp({
   delay: 10,
   time: 1000
 });
-});
-
-
-$(document).ready(function (){
-  $('#main-banner-carousel').owlCarousel({
+$('#main-banner-carousel').owlCarousel({
     loop: true,
     dots: false,
     autoplay:true,
@@ -56,8 +52,11 @@ $(document).ready(function (){
         }
     }
 });
+$(document).ready(function() {
+  $('.venobox').venobox({
+    'share': false
   });
-
+  });
 $(document).ready(function (){
   $('#testimonial-carousel').owlCarousel({
     loop: true,
@@ -80,7 +79,7 @@ $(document).ready(function (){
     }
 });
   });
-
+})(jQuery);
 
 
 //   $('.owl-carousel').owlCarousel({

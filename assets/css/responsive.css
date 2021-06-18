@@ -58,7 +58,6 @@ p{
     margin-top: -20px;
     padding: 3px;
     }
- }
 h5{
     font-size: 15px;
 } 
@@ -102,6 +101,12 @@ p{
 }
 .copyright-text p{
     font-size: 12px;
+}
+.testi-box{
+/* padding: 50px 10px 30px; */
+width: 100%;
+padding: 50px 10px 30px;
+}
 }
  /* @media only screen and (max-width: 425px) {
     .main-banner-text{
