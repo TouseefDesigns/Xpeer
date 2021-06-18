@@ -18,8 +18,23 @@
     margin-top: 0;
     padding: 5px;}
 }
-
+h4{
+    font-size: 16px;
+}
+h2{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+.filter-button{
+    font-size: 12px;
+    margin-top: -25PX;
+}
 @media only screen and (max-width: 425px) {
+    .owl-carousel .owl-item img{
+        width: 125%;
+    }
     .main-banner-text{
         height: 75%;
         width: 90%;
@@ -28,7 +43,7 @@
     }
     .main-banner-text h3{
      font-size: 8px;
-     margin-top: 10px;
+     margin-top: 14px;
  }
  .main-banner-text h1{
      font-size: 10px;
@@ -44,7 +59,50 @@
     padding: 3px;
     }
  }
-
+h5{
+    font-size: 15px;
+} 
+h4{
+    font-size: 14px;
+}
+h3{
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 10px;
+}
+.w-70{
+    width: 100%;
+}
+.pricing-table.popular .ribbon{
+    font-size: 12px;
+}
+.pricing-price{
+    height: 120px;
+    width: 120px;
+}
+.pricing-body ul li{
+    font-size: 12px;
+}
+.btn-style{
+    padding: 6px 15px;
+    font-size: 12px;
+}
+.filter-button{
+    padding: 1px 2px;
+    margin-bottom: 30px;
+    font-size: 10px; 
+    margin-top: -35PX;
+}
+.copyright-text p{
+    font-size: 12px;
+}
  /* @media only screen and (max-width: 425px) {
     .main-banner-text{
     display: none;

@@ -176,10 +176,9 @@ transform: scale(1.05);
     font-size: 18px;
     text-align: center;
     color: black;
-    margin-bottom: 30px;
     padding: 8px 20px;
     border: 1px solid #e2e2e2;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     background-color: #fff;
 }
 .filter-button.active,.filter-button:hover
@@ -389,7 +388,7 @@ margin: 0;
     font-size: 14px;
 }
 #testimonial{
-    background-image: url("assets/images/slide-3.jpg");
+    background-image: url("/assets/images/slide-3.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
