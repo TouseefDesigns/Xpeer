@@ -389,7 +389,7 @@ margin: 0;
     font-size: 14px;
 }
 #testimonial{
-    background-image: url("/assets/images/slide-3.jpg");
+    background-image: url("assets/images/slide-3.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
