@@ -246,7 +246,7 @@ transform: scale(1.05);
     color: white;
 }
 #stat{
- background-image: url("/assets/images/slide-1.jpg");
+ background-image: url("assets/images/slide-1.jpg");
  height: 50%; 
  background-position: center;
  background-repeat: no-repeat;
@@ -388,7 +388,7 @@ margin: 0;
     font-size: 14px;
 }
 #testimonial{
-    background-image: url("/assets/images/slide-3.jpg");
+    background-image: url("assets/images/slide-3.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
