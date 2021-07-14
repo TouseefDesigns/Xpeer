@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#mynavbar" data-offset="180">
     <!-- Main-wrapper -->
     <div class="main-wrapper">
         <!-- Navbar -->
@@ -31,25 +31,25 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="nav navbar-nav ml-auto font-weight-bold" id="nav">
                             <li class="nav-item">
-                                <a class="nav-link active px-3" href="#">Home</a>
+                                <a class="nav-link active px-3" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">About Us</a>
+                                <a class="nav-link px-3" href="#about-us">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Services</a>
+                                <a class="nav-link px-3" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Portfolio</a>
+                                <a class="nav-link px-3" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Our Team</a>
+                                <a class="nav-link px-3" href="#team">Our Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Pricing</a>
+                                <a class="nav-link px-3" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-3" href="#">Contact</a>
+                                <a class="nav-link px-3" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -249,11 +249,11 @@
                         <div class="d-flex flex-wrap justify-content-center">
                             <div
                                 class="gallery_product col-lg-4 col-md-6 col-12 filter center marketing branding financing">
-                                <div class="img position-relative text-center mb-30">
-                                    <img src="assets/images/p-1.jpg" alt="img" class="img-fluid">
+                                <div class="img position-relative text-center mb-30" >
+                                   <img src="assets/images/p-1.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-1.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -265,7 +265,7 @@
                                     <img src="assets/images/p-2.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-2.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -277,7 +277,7 @@
                                     <img src="assets/images/p-3.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-3.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -289,7 +289,7 @@
                                     <img src="assets/images/p-4.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-4.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -301,7 +301,7 @@
                                     <img src="assets/images/p-5.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-5.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -313,7 +313,7 @@
                                     <img src="assets/images/p-6.jpg" alt="img" class="img-fluid">
                                     <div class="portfolio-overlay">
                                         <div class="center-txt">
-                                            <i class="fas fa-arrows-alt size"></i>
+                                            <a href="assets/images/p-6.jpg" class="venobox"><i class="fas fa-arrows-alt size text-white"></i></a>
                                             <h6>Business Promotion</h6>
                                             <p class="white">Marketing</p>
                                         </div>
@@ -588,7 +588,7 @@
         <!-- Contact Section -->
         <section id="contact" class="bg-light">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-12 text-center">
                         <div class="section-heading text-center mb-5">
                             <h2 class="text-uppercase"><span class="color-base">Contact </span> with Us</h2>

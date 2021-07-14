@@ -26,6 +26,9 @@
     margin: 0%;
     padding: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -53,6 +56,7 @@ ul{
 h4{
     font-size: 20px;
     line-height: 30px;
+    margin-top: 1rem;
 }
 h3{
     font-size: 24px;
@@ -294,7 +298,6 @@ transform: scale(1.05);
 .pricing-table{
     box-shadow: 0 0 4px 0 #ccc;
     border-radius: 4px;
-    transition: 0.3s;
     
 }
 .pricing-title h3{
@@ -306,24 +309,32 @@ transform: scale(1.05);
 .pricing-price{
     height: 140px;
     width: 140px;
-    background-color: #ec4a71;
     margin: 0 auto;
     border-radius: 100%;
     font-weight: bold;
     border: 2px solid #fff;
-    box-shadow: 0 0 1px 4px #ec4a71;
+    transition: 0.5s all ease;
+
 }
 .pricing-price h1{
-    color: #fff;
+    color: #ec4a71;
     font-weight: bold;
     padding: 35px 0 0;
     margin-bottom: 15px;
 }
 .pricing-price p{
-    color: #e2e2e2;
+    color: #ec4a71; 
     font-size: 12px;
     margin: 0;
     line-height: 10px;
+}
+.pricing-table:hover .pricing-price{
+    background-color: #ec4a71;
+    box-shadow: 0 0 1px 4px #ec4a71;
+}
+.pricing-table:hover .pricing-price p,
+.pricing-table:hover .pricing-price h1{
+    color: #fff;
 }
 .pricing-body ul li:first-child{
     border-top: 1px solid #f1f1f1;
